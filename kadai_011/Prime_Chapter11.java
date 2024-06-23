@@ -19,7 +19,7 @@ public class Prime_Chapter11 {
                 }
             }
         }
-        for (int j = 2; j < primeJudge.length; j++) {
+        for (int j = 1; j < 100; j++) {
             if (primeJudge[j] == true) {
                 System.out.println(j + 1);
             }
