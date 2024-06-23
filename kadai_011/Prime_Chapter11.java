@@ -4,7 +4,7 @@ public class Prime_Chapter11 {
 
     public static void main(String[] args) {
 
-        boolean[] primeJudge = new boolean[100];
+        boolean[] primeJudge = new boolean[101];
 
         for (int k = 0; k < primeJudge.length; k++) {
             primeJudge[k] = true;
@@ -19,7 +19,7 @@ public class Prime_Chapter11 {
                 }
             }
         }
-        for (int j = 0; j < primeJudge.length; j++) {
+        for (int j = 2; j < primeJudge.length; j++) {
             if (primeJudge[j] == true) {
                 System.out.println(j + 1);
             }
